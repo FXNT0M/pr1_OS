@@ -47,7 +47,7 @@ list_processes() {
 
 # Переменные для хранения путей логов
 LOGFILE=""
-ERRORFILE=""
+ERRORFILE="err.log"
 
 # Обработка аргументов командной строки
 while getopts ":upe:hl:-:" option; do
